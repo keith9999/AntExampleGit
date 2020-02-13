@@ -1,1 +1,6 @@
-<echo>Hello world! </echo>
+<?xml version="1.0"?>
+	<project name="first ant project" default="info">
+	<target name="info">
+		<echo>this is build.xml file</echo>
+	</target>
+	</project>
